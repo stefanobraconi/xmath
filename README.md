@@ -13,16 +13,17 @@ This library add a "**xint**" data type and you can merge with normal int data t
 is comprensive of base arithmetic operation **( + , -, *, /, % )**, compare operators **( ==, !=, <, <=, >, >= )**, also include a little set of math function.
 Finally, it also has functions for displaying data in normal and scientific format.
 
-*Used algorithm:*
-Multiplication: Russian Peasant Divide  
-Divide: Canadian divide (I think is also called *"Nuffield"* or *"siciliana"*)
+*Used algorithm:*<br/>
+Multiplication:
+Russian Peasant method<br/> 
+Divide: Canadian method (I think is also called *"Nuffield"* or *"siciliana"*)
 
 *Very important:*
 This library is absolutely not meant to compete with GNU Math!
 
 **new user data type**
 
-xint (signed & unsigned arbitrary precision integer)
+**`xint`** (signed & unsigned arbitrary precision integer)
 
 **memory allocation & digits**
 
@@ -33,7 +34,7 @@ In xmath.h you can define computing area with `#define TRUE_DIGITS 1233`  (defau
 you can declare the variable in several ways:
 
 `xint var;`<br/>
-`var=value;`<br/>
+`var = value;`<br/>
 
 `xint var(integer value);`<br/>
 `xint var(char *value);`<br/>
@@ -49,13 +50,13 @@ example 1:<br/>
  `xint c;`<br/>
  `a=10;`<br/>
  `b=34;`<br/>
- `c=(a+1)*b-10;`<br/>
+ `c=( a + 1 )* b - 10;`<br/>
  
 example 2:<br/>
  `xint idx;`<br/>
  `xint var2;`<br/>
  `var2=100;`<br/>
- `for (idx=0; idx < var2+10; idx.increment()){...}`<br/>
+ `for (idx = 0; idx < var2 + 10; idx.increment()){...}`<br/>
 
 
 **XINT object functions**
@@ -114,4 +115,3 @@ Append a number (0->9) from right or left:
 
 
 *I apologize for all the mistakes i have surely made! Everything seems to work, but i will be glad if you report errors*
-
