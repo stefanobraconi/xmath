@@ -48,14 +48,14 @@ example 1:<br/>
  `xint a;`<br/>
  `xint b;`<br/>
  `xint c;`<br/>
- `a=10;`<br/>
- `b=34;`<br/>
- `c=( a + 1 ) * b - 10;`<br/>
+ `a = 10;`<br/>
+ `b = 34;`<br/>
+ `c = ( a + 1 ) * b - 10;`<br/>
  
 example 2:<br/>
  `xint idx;`<br/>
  `xint var2;`<br/>
- `var2=100;`<br/>
+ `var2 = 100;`<br/>
  `for (idx = 0; idx < var2 + 10; idx.increment()){...}`<br/>
 
 
