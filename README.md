@@ -50,7 +50,7 @@ example 1:<br/>
  `xint c;`<br/>
  `a = 10;`<br/>
  `b = 34;`<br/>
- `c = ( a + 1 ) * b - 10;`<br/>
+ `c = ( a + 1 )* b - 10;`<br/>
  
 example 2:<br/>
  `xint idx;`<br/>
@@ -59,7 +59,7 @@ example 2:<br/>
  `for (idx = 0; idx < var2 + 10; idx.increment()){...}`<br/>
 
 
-**XINT object functions**
+**XINT API reference**
 
 
 **Constructor:**
