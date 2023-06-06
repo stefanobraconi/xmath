@@ -2,7 +2,7 @@
 ## easy of use free c++ library for arbitrary precision integer arithmetic.
 
 release 2021.06.17
-by Stefano Braconi - calico.vae@gmail.com  
+by Stefano Braconi
 released under GNU GPLv3 license
 
 **Introduction**
