@@ -59,7 +59,7 @@ example 2:<br/>
  `for (idx = 0; idx < var2 + 10; idx.increment()){...}`<br/>
 
 
-**XINT API reference**
+**XINT Functions reference**
 
 
 **Constructor:**
